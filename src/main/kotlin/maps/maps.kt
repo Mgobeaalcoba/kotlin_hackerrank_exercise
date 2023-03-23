@@ -26,6 +26,7 @@ fun main(args: Array<String>) {
 
     // Agregar elemento a un Map usando la función put
     edadDeSuperHeroesMutable.put("Wolverine", 45)
+    edadDeSuperHeroesMutable.put("Wolverine", 58) // Intento duplicar una key con distinto value. Pero si ya existe pisa la data del value solamente.
     println(edadDeSuperHeroesMutable)
 
     // Usando asignación
