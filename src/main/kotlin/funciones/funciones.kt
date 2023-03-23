@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     println("Desde Función General: " + randomCase2(letraAleatoria))
 }
 
-// Función como Metodo añadido al objeto String:
+// "Funciónes de extensión:" funcionan como Metodo añadido al objeto String:
 
 private fun String.randomCase(): String {
     val numeroAleatorio = 0..99
