@@ -25,4 +25,5 @@ fun main(args: Array<String>) {
     // numerosFavoritos.removeIf { numero -> numero.rem(2) != 0 } // Pido los pares. Es lo mismo que la linea de abajo:
     numerosFavoritos.removeIf { numero -> numero % 2 != 0 }
     println(numerosFavoritos)
+
 }
